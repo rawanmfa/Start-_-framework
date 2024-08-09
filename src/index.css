@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    color: white;
+}
+.my-hover:hover .layer{
+    opacity: 0.9;
+}
+.layer{
+    transition: all 0.3s ease-in-out;
+}
+.my-active{
+    background-color: #1abc9c;
+}
